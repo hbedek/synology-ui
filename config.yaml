@@ -1,0 +1,16 @@
+name: "Synology Proxy"
+version: "1.0.0"
+slug: "synology-ui-proxy"
+description: "Getting access to external Z-wave JS UI from Home Assistant UI"
+panel_icon: "mdi:z-wave"
+arch:
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ingress: true
+init: false
+options:
+  server: "http://10.0.0.13"
+schema:
+  server: str
